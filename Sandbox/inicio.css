@@ -1,0 +1,64 @@
+body {
+  background-image: url('Imagens salvas/coisas do kaua/g1vXnZ.gif'); /* O caminho da imagem */
+  background-repeat: no-repeat;                   /* Não deixa a imagem repetir */
+  background-attachment: fixed;                  /* A imagem fica parada ao fazer scroll */
+  background-size: cover;                        /* Faz a imagem cobrir todo o ecrã */
+  background-position: center;                   /* Centra a imagem */
+}
+.meus-dados{
+    display: flex;
+    justify-content: left;
+    align-items: left;
+    height: 100px;
+    background-color: rgb(53, 82, 107);
+}
+.meus-dados {
+    background-color: rgba(225, 225, 225, 0.05);
+    backdrop-filter: blur(15px);
+    border: 1px solid rgba(255, 255, 255, 0.1);
+    padding: 40px;
+    border-radius: 25px;
+    -webkit-border-radius: 25px;
+    -moz-border-radius: 25px;
+    -ms-border-radius: 25px;
+    -o-border-radius: 25px;
+    text-align: left;
+    color : white;
+    font-family: Arial, Helvetica, sans-serif;
+}
+p{
+    color: white;
+    font-family: 'Courier New', Courier, monospace;
+    text-align: left;
+    font-size: 20px;
+}
+img{
+    border-radius: 25px;
+    -webkit-border-radius: 25px;
+    -moz-border-radius: 25px;
+    -ms-border-radius: 25px;
+    -o-border-radius: 25px;
+}
+.alinhamento{
+    display: flex;
+    position: relative;
+    top: 100px;
+
+}
+.alinhamento2{
+    display: flex;
+    position: relative;
+    top: 200px;
+
+}
+.alinhamento3{
+    display: flex;
+    position: relative;
+    top: 300px;
+
+}
+.aplicativo-de-gerenciamento-de-tarefas{
+    display: flex;
+    flex-direction: column;
+    margin-left: auto;
+}
